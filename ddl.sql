@@ -2,5 +2,6 @@
 
 CREATE TABLE sales (
     id int primary key, 
-    price decimal(10,2)
+    price decimal(10,2),
+    comment varcahr(200)
 );
