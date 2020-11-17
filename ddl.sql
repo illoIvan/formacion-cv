@@ -7,3 +7,9 @@ CREATE TABLE sales (
 );
 --CREATE TABLE Vista
 CREATE VIEW vw_sales SELECT id, price FROM sales;
+
+--CREATE TABLE Cliente
+CREATE TABLE Client (
+    id int primary key,
+    name varchar(50)
+);
